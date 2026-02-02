@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Laboratorio di C — Mappa ad albero (dark viola)</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <h1>🌳 Laboratorio di C — Mappa interattiva (Dark · Viola)</h1>
+      <p class="lead">Click sui nodi per espandere/collassare. Tema scuro con accenti viola intensi.</p>
+      <div class="search-wrap">
+        <label for="searchBox" class="visually-hidden">Cerca nella mappa</label>
+        <div class="search-input">
+          <img class="search-icon" src="./assets/icon-search.svg" alt="icona ricerca" aria-hidden="true">
+          <input id="searchBox" type="search" placeholder="Cerca (es. malloc, array, fopen)..." aria-label="Cerca nella mappa" />
+          <button id="clearSearch" aria-label="Cancella ricerca">✕</button>
+        </div>
+        <p class="links">🔗 <a href="../README.md">Torna al README</a> • 🟣 Tema: <strong>Dark (viola)</strong></p>
+      </div>
+    </header>
+
+    <section id="tree" class="tree" role="tree" aria-label="Mappa ad albero">
+      <ul>
+        <li>
+          <button class="toggle">▾</button> <strong>Introduzione</strong>
+          <ul>
+            <li><a href="./introduzione/programma-compilato-e-interpretato-definizione.md">Programma compilato e interpretato: definizione</a></li>
+            <li><a href="./introduzione/caratteristiche-linguaggio-c.md">Caratteristiche del Linguaggio C</a></li>
+            <li><a href="./introduzione/storia-linguaggio-c.md">Storia del linguaggio C</a></li>
+          </ul>
+        </li>
+        <li>
+          <button class="toggle">▾</button> <strong>Software</strong>
+          <ul>
+            <li><a href="./software/software-windows.md">Windows</a></li>
+            <li><a href="./software/software-linux.md">Linux</a></li>
+            <li><a href="./software/software-mac-os.md">Mac OS</a></li>
+          </ul>
+        </li>
+        <li>
+          <button class="toggle">▾</button> <strong>1° programma</strong>
+          <ul>
+            <li><a href="./primo-programma/elementi-fondamentali-programma-in-c.md">Elementi fondamentali di un programma in C</a></li>
+            <li><a href="./primo-programma/compilare-programma-in-c.md">Compilare un programma in C</a></li>
+          </ul>
+        </li>
+        <li>
+          <button class="toggle">▾</button> <strong>Elementi fondamentali</strong>
+          <ul>
+            <li><a href="./elementi-fondamentali/variabili-c-tipi-dichiarazione-uso.md">Variabili</a></li>
+            <li>
+              <button class="toggle small">▸</button> <a href="./elementi-fondamentali/operatori-introduzione.md">Operatori (panoramica)</a>
+              <ul>
+                <li><a href="./elementi-fondamentali/operatori-aritmetici.md">Operatori aritmetici</a></li>
+                <li><a href="./elementi-fondamentali/operatori-confronto-logici.md">Operatori di confronto e logici</a></li>
+                <li><a href="./elementi-fondamentali/proprieta-degli-operatori.md">Proprietà degli operatori</a></li>
+              </ul>
+            </li>
+            <li><a href="./elementi-fondamentali/prime-operazioni-io.md">Prime operazioni di I/O</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <button class="toggle">▾</button> <strong>Controlli</strong>
+          <ul>
+            <li><a href="./controlli/controlli-condizionali-if-else.md">If-Else</a></li>
+            <li><a href="./controlli/switch-e-operatori-ternari.md">Switch e ternario</a></li>
+            <li><a href="./controlli/controlli-iterativi-cicli.md">Cicli: for/while/do-while</a></li>
+            <li><a href="./controlli/cosa-sono-array.md">Array (single/multi)</a></li>
+            <li><a href="./controlli/array-e-cicli-for.md">Array e For</a></li>
+            <li><a href="./controlli/array-multidimensionali.md">Array Multidimensionali</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <button class="toggle">▾</button> <strong>Strutture avanzate</strong>
+          <ul>
+            <li><a href="./strutture-avanzate/funzioni-in-c.md">Funzioni</a></li>
+            <li><a href="./strutture-avanzate/struct-typedef-union.md">Struct / typedef / union</a></li>
+            <li><a href="./strutture-avanzate/casting-enumerazioni-variabili-statiche.md">Casting, enum, static</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <button class="toggle">▾</button> <strong>I puntatori</strong>
+          <ul>
+            <li><a href="./puntatori/puntatori-in-c.md">Puntatori in C</a></li>
+            <li><a href="./puntatori/puntatori-e-funzioni.md">Puntatori e Funzioni</a></li>
+            <li><a href="./puntatori/puntatori-ed-array.md">Puntatori ed Array</a></li>
+            <li><a href="./puntatori/puntatori-e-strutture.md">Puntatori e Strutture</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <button class="toggle">▾</button> <strong>Gestione della memoria</strong>
+          <ul>
+            <li><a href="./gestione-memoria/allocazione-dinamica-malloc.md">Malloc</a></li>
+            <li><a href="./gestione-memoria/realloc-array-dimensioni-variabili.md">Realloc e array dinamici</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <button class="toggle">▾</button> <strong>Le liste</strong>
+          <ul>
+            <li><a href="./liste/introduzione-liste.md">Introduzione alle Liste</a></li>
+            <li><a href="./liste/gestione-lista-parte-1.md">Gestione lista - Parte 1</a></li>
+            <li><a href="./liste/gestione-lista-parte-2.md">Gestione lista - Parte 2</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <button class="toggle">▾</button> <strong>I/O su file</strong>
+          <ul>
+            <li><a href="./io-file/introduzione-io-file.md">Introduzione I/O file</a></li>
+            <li><a href="./io-file/funzione-fopen.md">fopen</a></li>
+            <li><a href="./io-file/fprintf-fscanf.md">fprintf / fscanf</a></li>
+            <li><a href="./io-file/fflush-fclose.md">fflush / fclose</a></li>
+            <li><a href="./io-file/io-su-stringhe.md">I/O su stringhe</a></li>
+            <li><a href="./io-file/messaggi-errore-esempi.md">Messaggi di Errore ed esempi pratici</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <button class="toggle">▾</button> <strong>Pre-processore & Definizioni</strong>
+          <ul>
+            <li><a href="./preprocessore-definizioni/pre-processore-direttive-inclusione.md">Direttive di inclusione</a></li>
+            <li><a href="./preprocessore-definizioni/direttive-di-definizione.md">Direttive di definizione</a></li>
+            <li><a href="./preprocessore-definizioni/direttive-condizionali.md">Direttive condizionali</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <button class="toggle">▾</button> <strong>Progetti di grandi dimensioni</strong>
+          <ul>
+            <li><a href="./progetti-grandi-dimensioni/errori-comuni-regole-stile.md">Errori comuni e stile</a></li>
+            <li><a href="./progetti-grandi-dimensioni/moduli-prototipi-header-file.md">Moduli e header</a></li>
+            <li><a href="./progetti-grandi-dimensioni/utility-make-makefile.md">Make e Makefile</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>Progetto generato da <strong>GitHub Copilot</strong> — tema <span class="badge">Dark · Viola</span></p>
+    </footer>
+  </main>
+
+  <script src="./tree.js"></script>
+</body>
+</html>

@@ -6,4 +6,13 @@ Fonte: `README.md`
 
 ## Descrizione
 
-TODO: Panoramica sugli operatori in C e loro categorie.
+Categorie principali di operatori in C:
+- **Aritmetici**: `+ - * / %`
+- **Relazionali / confronto**: `== != > < >= <=`
+- **Logici**: `&& || !`
+- **Bitwise**: `& | ^ ~ << >>`
+- **Assegnamento**: `= += -=` etc.
+- **Altro**: `?:`, `sizeof`, `,` (virgola)
+
+### Nota
+Conoscere precedenza e associatività è importante per evitare errori; usare parentesi per chiarezza.

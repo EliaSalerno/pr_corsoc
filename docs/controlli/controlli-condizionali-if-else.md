@@ -6,4 +6,17 @@ Fonte: `README.md`
 
 ## Descrizione
 
-TODO: Esempi di if, if-else, if-else if e casi d'uso.
+Esempi:
+```c
+if (x < 0) {
+  /* ... */
+} else if (x == 0) {
+  /* ... */
+} else {
+  /* ... */
+}
+```
+
+### Consigli
+- Evitare condizioni complesse: scomporle in funzioni o variabili booleane.
+- Attenzione alle assegnazioni accidentali: `if (a = b)` è un bug comune.

@@ -1,146 +1,83 @@
-# Laboratorio di c
-<table padding="0">
-  <tr>
-    <td>
-      <h3>Introduzione</h3>
-    </td>
-    <td>
-        <h3>Software</h3>
-    </td>
-    <td>
-        <h3>1° programma</h3>
-    </td>
-    <td>
-      <h3>Elementi fondamentali</h3>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li><a href="./docs/introduzione/programma-compilato-e-interpretato-definizione.md">Programma compilato e interpretato: definizione</a></li>
-        <li><a href="./docs/introduzione/caratteristiche-linguaggio-c.md">Caratteristiche del Linguaggio C</a></li>
-        <li><a href="./docs/introduzione/storia-linguaggio-c.md">Storia del linguaggio C</a></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><a href="./docs/software/software-windows.md">Software da usare: Windows</a></li>
-        <li><a href="./docs/software/software-linux.md">Software da usare: Linux</a></li>
-        <li><a href="./docs/software/software-mac-os.md">Software da usare: Mac OS</a></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><a href="./docs/primo-programma/elementi-fondamentali-programma-in-c.md">Elementi fondamentali di un programma in C</a></li>
-        <li><a href="./docs/primo-programma/compilare-programma-in-c.md">Compilare un programma in C</a></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><a href="./docs/elementi-fondamentali/variabili-c-tipi-dichiarazione-uso.md">Variabili in C: tipi, dichiarazione, uso</a></li>
-        <li><a href="./docs/elementi-fondamentali/operatori-introduzione.md">Gli Operatori: introduzione</a>
-          <ul>
-            <li><a href="./docs/elementi-fondamentali/operatori-aritmetici.md">Operatori aritmetici</a></li>
-            <li><a href="./docs/elementi-fondamentali/operatori-confronto-logici.md">Operatori di confronto e logici</a></li>
-            <li><a href="./docs/elementi-fondamentali/proprieta-degli-operatori.md">Proprietà degli operatori</a></li>
-          </ul>
-        </li>
-        <li><a href="./docs/elementi-fondamentali/prime-operazioni-io.md">Prime operazioni di I/O</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>Controlli</h3>
-    </td>
-    <td>
-      <h3>Strutture avanzate</h3>
-    </td>
-    <td>
-      <h3>I puntatori</h3>
-    </td>
-    <td>
-      <h3>La gestione della memoria</h3>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li><a href="./docs/controlli/controlli-condizionali-if-else.md">Controlli condizionali: If-Else in C</a></li>
-        <li><a href="./docs/controlli/switch-e-operatori-ternari.md">Switch e operatori ternari: controlli condizionali in C</a></li>
-        <li><a href="./docs/controlli/controlli-iterativi-cicli.md">Controlli Iterativi in C: i cicli while, for, break</a></li>
-        <li><a href="./docs/controlli/cosa-sono-array.md">Cosa sono gli Array in C</a></li>
-        <li><a href="./docs/controlli/array-e-cicli-for.md">Gli array e i cicli For</a></li>
-        <li><a href="./docs/controlli/array-multidimensionali.md">Array Multidimensionali</a></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><a href="./docs/strutture-avanzate/funzioni-in-c.md">Le funzioni in C</a></li>
-        <li><a href="./docs/strutture-avanzate/struct-typedef-union.md">Struct, typedef e union: utilizzo dei dati strutturati in C</a></li>
-        <li><a href="./docs/strutture-avanzate/casting-enumerazioni-variabili-statiche.md">Casting, enumerazioni e variabili statiche in C</a></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><a href="./docs/puntatori/puntatori-in-c.md">Puntatori in C</a></li>
-        <li><a href="./docs/puntatori/puntatori-e-funzioni.md">Puntatori e Funzioni</a></li>
-        <li><a href="./docs/puntatori/puntatori-ed-array.md">Puntatori ed Array</a></li>
-        <li><a href="./docs/puntatori/puntatori-e-strutture.md">Puntatori e Strutture</a></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><a href="./docs/gestione-memoria/allocazione-dinamica-malloc.md">Allocazione dinamica della Memoria (malloc)</a></li>
-        <li><a href="./docs/gestione-memoria/realloc-array-dimensioni-variabili.md">Realloc, array di dimensioni variabili</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>Le liste</h3>
-    </td>
-    <td>
-      <h3>I/O su file</h3>
-    </td>
-    <td>
-      <h3>Pre-processore e Definizioni</h3>
-    </td>
-    <td>
-      <h3>Progetti di grandi dimensioni</h3>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <ul>
-        <li><a href="./docs/liste/introduzione-liste.md">Introduzione alle Liste</a></li>
-        <li><a href="./docs/liste/gestione-lista-parte-1.md">Gestione di una lista in C - Parte 1</a></li>
-        <li><a href="./docs/liste/gestione-lista-parte-2.md">Gestione di una lista - II</a></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><a href="./docs/io-file/introduzione-io-file.md">Introduzione Input e Output su file</a></li>
-        <li><a href="./docs/io-file/funzione-fopen.md">La funzione fopen</a></li>
-        <li><a href="./docs/io-file/fprintf-fscanf.md">Funzioni fprintf e fscanf</a></li>
-        <li><a href="./docs/io-file/fflush-fclose.md">Le funzioni fflush e fclose</a></li>
-        <li><a href="./docs/io-file/io-su-stringhe.md">Input/Output su stringhe</a></li>
-        <li><a href="./docs/io-file/messaggi-errore-esempi.md">Messaggi di Errore ed esempi pratici</a></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><a href="./docs/preprocessore-definizioni/pre-processore-direttive-inclusione.md">Il Pre-processore C e le Direttive di inclusione</a></li>
-        <li><a href="./docs/preprocessore-definizioni/direttive-di-definizione.md">Le Direttive di definizione</a></li>
-        <li><a href="./docs/preprocessore-definizioni/direttive-condizionali.md">Le Direttive condizionali</a></li>
-      </ul>
-    </td>
-    <td>
-      <ul>
-        <li><a href="./docs/progetti-grandi-dimensioni/errori-comuni-regole-stile.md">Errori comuni e regole di stile in C</a></li>
-        <li><a href="./docs/progetti-grandi-dimensioni/moduli-prototipi-header-file.md">Moduli, prototipi e header file</a></li>
-        <li><a href="./docs/progetti-grandi-dimensioni/utility-make-makefile.md">L'utility make ed i makefile</a></li>
-      </ul>
-    </td>
-  </tr>
-</table>
+# 🌳 Laboratorio di C — Mappa ad albero
+
+🟣 Tema: **Dark (viola)** — [Apri la mappa interattiva (HTML)](./docs/index.html)
+
+> Una veste alternativa per il progetto: naviga la struttura come un albero, scorciatoie veloci e riferimenti diretti ai singoli documenti.
+
+---
+
+```
+Laboratorio di C
+├─ 📘 Introduzione
+│  ├─ 📄 [Programma compilato e interpretato: definizione](./docs/introduzione/programma-compilato-e-interpretato-definizione.md)
+│  ├─ 📄 [Caratteristiche del Linguaggio C](./docs/introduzione/caratteristiche-linguaggio-c.md)
+│  └─ 📄 [Storia del linguaggio C](./docs/introduzione/storia-linguaggio-c.md)
+├─ 🛠️ Software
+│  ├─ 📄 [Windows](./docs/software/software-windows.md)
+│  ├─ 📄 [Linux](./docs/software/software-linux.md)
+│  └─ 📄 [Mac OS](./docs/software/software-mac-os.md)
+├─ 🧩 1° programma
+│  ├─ 📄 [Elementi fondamentali di un programma in C](./docs/primo-programma/elementi-fondamentali-programma-in-c.md)
+│  └─ 📄 [Compilare un programma in C](./docs/primo-programma/compilare-programma-in-c.md)
+├─ ⚙️ Elementi fondamentali
+│  ├─ 📄 [Variabili](./docs/elementi-fondamentali/variabili-c-tipi-dichiarazione-uso.md)
+│  ├─ 📄 [Operatori (panoramica)](./docs/elementi-fondamentali/operatori-introduzione.md)
+│  │  ├─ 📄 [Operatori aritmetici](./docs/elementi-fondamentali/operatori-aritmetici.md)
+│  │  ├─ 📄 [Operatori di confronto e logici](./docs/elementi-fondamentali/operatori-confronto-logici.md)
+│  │  └─ 📄 [Proprietà degli operatori](./docs/elementi-fondamentali/proprieta-degli-operatori.md)
+│  └─ 📄 [Prime operazioni di I/O](./docs/elementi-fondamentali/prime-operazioni-io.md)
+├─ 🔁 Controlli
+│  ├─ 📄 [If-Else](./docs/controlli/controlli-condizionali-if-else.md)
+│  ├─ 📄 [Switch e ternario](./docs/controlli/switch-e-operatori-ternari.md)
+│  ├─ 📄 [Cicli: for/while/do-while](./docs/controlli/controlli-iterativi-cicli.md)
+│  ├─ 📄 [Array (single/multi)](./docs/controlli/cosa-sono-array.md)
+│  ├─ 📄 [Array e For](./docs/controlli/array-e-cicli-for.md)
+│  └─ 📄 [Array Multidimensionali](./docs/controlli/array-multidimensionali.md)
+├─ 🧱 Strutture avanzate
+│  ├─ 📄 [Funzioni](./docs/strutture-avanzate/funzioni-in-c.md)
+│  ├─ 📄 [Struct / typedef / union](./docs/strutture-avanzate/struct-typedef-union.md)
+│  └─ 📄 [Casting, enum, static](./docs/strutture-avanzate/casting-enumerazioni-variabili-statiche.md)
+├─ 📎 I puntatori
+│  ├─ 📄 [Puntatori in C](./docs/puntatori/puntatori-in-c.md)
+│  ├─ 📄 [Puntatori e Funzioni](./docs/puntatori/puntatori-e-funzioni.md)
+│  ├─ 📄 [Puntatori ed Array](./docs/puntatori/puntatori-ed-array.md)
+│  └─ 📄 [Puntatori e Strutture](./docs/puntatori/puntatori-e-strutture.md)
+├─ 💾 Gestione della memoria
+│  ├─ 📄 [Malloc](./docs/gestione-memoria/allocazione-dinamica-malloc.md)
+│  └─ 📄 [Realloc e array dinamici](./docs/gestione-memoria/realloc-array-dimensioni-variabili.md)
+├─ 🔗 Le liste
+│  ├─ 📄 [Introduzione alle Liste](./docs/liste/introduzione-liste.md)
+│  ├─ 📄 [Gestione lista - Parte 1](./docs/liste/gestione-lista-parte-1.md)
+│  └─ 📄 [Gestione lista - Parte 2](./docs/liste/gestione-lista-parte-2.md)
+├─ 📁 I/O su file
+│  ├─ 📄 [Introduzione I/O file](./docs/io-file/introduzione-io-file.md)
+│  ├─ 📄 [fopen](./docs/io-file/funzione-fopen.md)
+│  ├─ 📄 [fprintf / fscanf](./docs/io-file/fprintf-fscanf.md)
+│  └─ 📄 [fflush / fclose / stringhe / errori](./docs/io-file/fflush-fclose.md)
+├─ 🧾 Pre-processore & Definizioni
+│  ├─ 📄 [Direttive di inclusione](./docs/preprocessore-definizioni/pre-processore-direttive-inclusione.md)
+│  ├─ 📄 [Le direttive di definizione](./docs/preprocessore-definizioni/direttive-di-definizione.md)
+│  └─ 📄 [Direttive condizionali](./docs/preprocessore-definizioni/direttive-condizionali.md)
+└─ 🏗️ Progetti di grandi dimensioni
+   ├─ 📄 [Errori comuni e stile](./docs/progetti-grandi-dimensioni/errori-comuni-regole-stile.md)
+   ├─ 📄 [Moduli e header](./docs/progetti-grandi-dimensioni/moduli-prototipi-header-file.md)
+   └─ 📄 [Make e Makefile](./docs/progetti-grandi-dimensioni/utility-make-makefile.md)
+```
+
+---
+
+> Note rapide:
+> - Clicca sui link per aprire la pagina corrispondente.
+> - Se preferisci, posso trasformare questa mappa in una pagina HTML statica o aggiungere badge/stili personalizzati.
+
+---
+
+**Contribuire** ✨
+- Aggiungi nuove pagine sotto `docs/` e aggiorna l'albero qui.
+- Per suggerimenti di stile, proponi un PR.
+
+**Extra:** ho aggiunto una versione interattiva (`docs/index.html`) con tema Dark-Viola, icone SVG e ricerca live. Puoi stampare o salvare in PDF la mappa usando il comando di stampa del browser (la versione `print` rimuove elementi interattivi e espande l'albero).
+
+---
+
+*Creato automaticamente da GitHub Copilot — navigazione ad albero pronta.*

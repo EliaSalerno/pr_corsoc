@@ -6,4 +6,12 @@ Fonte: `README.md`
 
 ## Descrizione
 
-TODO: Elencare errori frequenti e linee guida di stile per progetti C su larga scala.
+- **Errori comuni**: buffer overflow, use-after-free, memory leak, off-by-one, non controllo dei ritorni di funzione.
+- **Linee guida**: usare nomi chiari, commenti dove serve, codice modularizzato, header con include guard, test e CI.
+
+### Strumenti utili
+- Valgrind per memory leak, sanitizer (`-fsanitize=address,undefined`) per debugging.
+- Static analyzer (clang-tidy, cppcheck).
+
+### Raccomandazioni
+- Scrivere test unitari e integrare analisi automatica nel processo di build.
