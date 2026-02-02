@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Reindirizzamento — Laboratorio di C</title>
+  <meta http-equiv="refresh" content="3;url=./docs/index.html">
+  <style>
+    :root{--bg:#0f0f16;--text:#efeaf8;--accent:#8b3fa8}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;background:linear-gradient(180deg,#0b0710,#0f0f16);color:var(--text);display:flex;align-items:center;justify-content:center;height:100vh}
+    .card{max-width:720px;padding:28px;border-radius:12px;background:rgba(255,255,255,0.02);text-align:center;box-shadow:0 10px 30px rgba(0,0,0,0.6)}
+    a{color:var(--accent);text-decoration:none;font-weight:600}
+    .muted{color:rgba(239,234,248,0.7);margin-top:8px}
+  </style>
+  <script>
+    // JS fallback / countdown
+    document.addEventListener('DOMContentLoaded', function(){
+      var secs = 3;
+      var el = document.getElementById('countdown');
+      if (!el) return;
+      el.textContent = secs;
+      var iv = setInterval(function(){
+        secs -= 1;
+        if (secs <= 0){ clearInterval(iv); return; }
+        el.textContent = secs;
+      }, 1000);
+      // if JS can run, do a programmatic redirect as safety after 3s
+      setTimeout(function(){ location.href = './docs/index.html'; }, 3000);
+    });
+  </script>
+</head>
+<body>
+  <main class="card" role="main">
+    <h1>Reindirizzamento in corso</h1>
+    <p class="muted">Verrai reindirizzato automaticamente alla mappa interattiva in <strong id="countdown">3</strong> secondi.</p>
+    <p>Se il reindirizzamento non funziona, apri <a href="./docs/index.html">la mappa manualmente</a>.</p>
+    <p class="muted">(Se preferisci, puoi salvare questa pagina come punto di ingresso pubblico.)</p>
+  </main>
+</body>
+</html>
