@@ -17,30 +17,36 @@
   <tr>
     <td>
       <ul>
-        <li>Programma compilato e interpretato: definizione</li>
-        <li>Caratteristiche del Linguaggio C</li>
-        <li>Storia del linguaggio C</li>
+        <li><a href="./docs/introduzione/programma-compilato-e-interpretato-definizione.md">Programma compilato e interpretato: definizione</a></li>
+        <li><a href="./docs/introduzione/caratteristiche-linguaggio-c.md">Caratteristiche del Linguaggio C</a></li>
+        <li><a href="./docs/introduzione/storia-linguaggio-c.md">Storia del linguaggio C</a></li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>Software da usare: Windows</li>
-        <li>Software da usare: Linux</li>
-        <li>Software da usare: Mac OS</li>
+        <li><a href="./docs/software/software-windows.md">Software da usare: Windows</a></li>
+        <li><a href="./docs/software/software-linux.md">Software da usare: Linux</a></li>
+        <li><a href="./docs/software/software-mac-os.md">Software da usare: Mac OS</a></li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>Elementi fondamentali di un programma in C</li>
-        <li>Compilare un programma in C</li>
+        <li><a href="./docs/primo-programma/elementi-fondamentali-programma-in-c.md">Elementi fondamentali di un programma in C</a></li>
+        <li><a href="./docs/primo-programma/compilare-programma-in-c.md">Compilare un programma in C</a></li>
+      </ul>
     </td>
     <td>
-      <li>Variabili in C: tipi, dichiarazione, uso</li>
-      <li>Gli Operatori: introduzione</li>
-         - Operatori aritmetici<br>
-         - Operatori di confronto e logici<br>
-         - Proprietà degli operatori<br>
-      <li>Prime operazioni di I/O</li>
+      <ul>
+        <li><a href="./docs/elementi-fondamentali/variabili-c-tipi-dichiarazione-uso.md">Variabili in C: tipi, dichiarazione, uso</a></li>
+        <li><a href="./docs/elementi-fondamentali/operatori-introduzione.md">Gli Operatori: introduzione</a>
+          <ul>
+            <li><a href="./docs/elementi-fondamentali/operatori-aritmetici.md">Operatori aritmetici</a></li>
+            <li><a href="./docs/elementi-fondamentali/operatori-confronto-logici.md">Operatori di confronto e logici</a></li>
+            <li><a href="./docs/elementi-fondamentali/proprieta-degli-operatori.md">Proprietà degli operatori</a></li>
+          </ul>
+        </li>
+        <li><a href="./docs/elementi-fondamentali/prime-operazioni-io.md">Prime operazioni di I/O</a></li>
+      </ul>
     </td>
   </tr>
   <tr>
@@ -59,27 +65,35 @@
   </tr>
   <tr>
     <td>
-      <li>Controlli condizionali: If-Else in C</li>
-      <li>Switch e operatori ternari: controlli condizionali in C</li>
-      <li>Controlli Iterativi in C: i cicli while, for, break</li>
-      <li>Cosa sono gli Array in C</li>
-      <li>Gli array e i cicli For</li>
-      <li>Array Multidimensionali</li>
+      <ul>
+        <li><a href="./docs/controlli/controlli-condizionali-if-else.md">Controlli condizionali: If-Else in C</a></li>
+        <li><a href="./docs/controlli/switch-e-operatori-ternari.md">Switch e operatori ternari: controlli condizionali in C</a></li>
+        <li><a href="./docs/controlli/controlli-iterativi-cicli.md">Controlli Iterativi in C: i cicli while, for, break</a></li>
+        <li><a href="./docs/controlli/cosa-sono-array.md">Cosa sono gli Array in C</a></li>
+        <li><a href="./docs/controlli/array-e-cicli-for.md">Gli array e i cicli For</a></li>
+        <li><a href="./docs/controlli/array-multidimensionali.md">Array Multidimensionali</a></li>
+      </ul>
     </td>
     <td>
-      <li>Le funzioni in C</li>
-      <li>Struct, typedef e union: utilizzo dei dati strutturati in C</li>
-      <li>Casting, enumerazioni e variabili statiche in C</li>
+      <ul>
+        <li><a href="./docs/strutture-avanzate/funzioni-in-c.md">Le funzioni in C</a></li>
+        <li><a href="./docs/strutture-avanzate/struct-typedef-union.md">Struct, typedef e union: utilizzo dei dati strutturati in C</a></li>
+        <li><a href="./docs/strutture-avanzate/casting-enumerazioni-variabili-statiche.md">Casting, enumerazioni e variabili statiche in C</a></li>
+      </ul>
     </td>
     <td>
-      <li>Puntatori in C</li>
-      <li>Puntatori e Funzioni</li>
-      <li>Puntatori ed Array</li>
-      <li>Puntatori e Strutture</li>
+      <ul>
+        <li><a href="./docs/puntatori/puntatori-in-c.md">Puntatori in C</a></li>
+        <li><a href="./docs/puntatori/puntatori-e-funzioni.md">Puntatori e Funzioni</a></li>
+        <li><a href="./docs/puntatori/puntatori-ed-array.md">Puntatori ed Array</a></li>
+        <li><a href="./docs/puntatori/puntatori-e-strutture.md">Puntatori e Strutture</a></li>
+      </ul>
     </td>
     <td>
-      <li>Allocazione dinamica della Memoria (malloc)</li>
-      <li>Realloc, array di dimensioni variabili</li>
+      <ul>
+        <li><a href="./docs/gestione-memoria/allocazione-dinamica-malloc.md">Allocazione dinamica della Memoria (malloc)</a></li>
+        <li><a href="./docs/gestione-memoria/realloc-array-dimensioni-variabili.md">Realloc, array di dimensioni variabili</a></li>
+      </ul>
     </td>
   </tr>
   <tr>
@@ -98,27 +112,35 @@
   </tr>
   <tr>
     <td>
-      <li>Introduzione alle Liste</li>
-      <li>Gestione di una lista in C - Parte 1</li>
-      <li>Gestione di una lista - II</li>
+      <ul>
+        <li><a href="./docs/liste/introduzione-liste.md">Introduzione alle Liste</a></li>
+        <li><a href="./docs/liste/gestione-lista-parte-1.md">Gestione di una lista in C - Parte 1</a></li>
+        <li><a href="./docs/liste/gestione-lista-parte-2.md">Gestione di una lista - II</a></li>
+      </ul>
     </td>
     <td>
-      <li>Introduzione Input e Output su file</li>
-      <li>La funzione fopen</li>
-      <li>Funzioni fprintf e fscanf</li>
-      <li>Le funzioni fflush e fclose</li>
-      <li>Input/Output su stringhe</li>
-      <li>Messaggi di Errore ed esempi pratici</li>
+      <ul>
+        <li><a href="./docs/io-file/introduzione-io-file.md">Introduzione Input e Output su file</a></li>
+        <li><a href="./docs/io-file/funzione-fopen.md">La funzione fopen</a></li>
+        <li><a href="./docs/io-file/fprintf-fscanf.md">Funzioni fprintf e fscanf</a></li>
+        <li><a href="./docs/io-file/fflush-fclose.md">Le funzioni fflush e fclose</a></li>
+        <li><a href="./docs/io-file/io-su-stringhe.md">Input/Output su stringhe</a></li>
+        <li><a href="./docs/io-file/messaggi-errore-esempi.md">Messaggi di Errore ed esempi pratici</a></li>
+      </ul>
     </td>
     <td>
-      <li>Il Pre-processore C e le Direttive di inclusione</li>
-      <li>Le Direttive di definizione</li>
-      <li>Le Direttive condizionali</li>
+      <ul>
+        <li><a href="./docs/preprocessore-definizioni/pre-processore-direttive-inclusione.md">Il Pre-processore C e le Direttive di inclusione</a></li>
+        <li><a href="./docs/preprocessore-definizioni/direttive-di-definizione.md">Le Direttive di definizione</a></li>
+        <li><a href="./docs/preprocessore-definizioni/direttive-condizionali.md">Le Direttive condizionali</a></li>
+      </ul>
     </td>
     <td>
-      <li>Errori comuni e regole di stile in C</li>
-      <li>Moduli, prototipi e header file</li>
-      <li>L'utility make ed i makefile</li>
+      <ul>
+        <li><a href="./docs/progetti-grandi-dimensioni/errori-comuni-regole-stile.md">Errori comuni e regole di stile in C</a></li>
+        <li><a href="./docs/progetti-grandi-dimensioni/moduli-prototipi-header-file.md">Moduli, prototipi e header file</a></li>
+        <li><a href="./docs/progetti-grandi-dimensioni/utility-make-makefile.md">L'utility make ed i makefile</a></li>
+      </ul>
     </td>
   </tr>
 </table>
