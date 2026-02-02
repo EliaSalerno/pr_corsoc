@@ -81,13 +81,3 @@ Tema: **Dark (viola)** — [Apri la mappa interattiva (HTML)](./docs/index.html)
 > - Se preferisci, posso trasformare questa mappa in una pagina HTML statica o aggiungere badge/stili personalizzati.
 
 ---
-
-**Contribuire**
-- Aggiungi nuove pagine sotto `docs/` e aggiorna l'albero qui.
-- Per suggerimenti di stile, proponi un PR.
-
-**Extra:** ho aggiunto una versione interattiva (`docs/index.md`) con tema Dark-Viola, icone SVG e ricerca live. Puoi stampare o salvare in PDF la mappa usando il comando di stampa del browser (la versione `print` rimuove elementi interattivi e espande l'albero).
-
----
-
-*Creato automaticamente da GitHub Copilot — navigazione ad albero pronta.*
