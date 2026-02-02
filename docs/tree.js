@@ -23,9 +23,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const btn = li.querySelector(':scope > .toggle');
     const child = li.querySelector(':scope > ul');
     if (btn) {
+      const labelText = (li.querySelector(':scope > strong')?.textContent || li.querySelector(':scope > a')?.textContent || 'sezione').trim();
       btn.setAttribute('aria-expanded', child ? (!child.hidden).toString() : 'false');
       btn.setAttribute('aria-controls', 'node-' + idx);
       btn.setAttribute('tabindex', '0');
+      btn.setAttribute('aria-label', (child ? 'Espandi o comprimi ' : 'Apri ') + labelText);
     }
     if (child) {
       child.setAttribute('role', 'group');

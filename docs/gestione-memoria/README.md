@@ -2,5 +2,5 @@
 
 Voci:
 
-- [Allocazione dinamica della Memoria (malloc)](./allocazione-dinamica-malloc.md)
-- [Realloc, array di dimensioni variabili](./realloc-array-dimensioni-variabili.md)
+- [Allocazione dinamica della Memoria (malloc)](./allocazione-dinamica-malloc.html)
+- [Realloc, array di dimensioni variabili](./realloc-array-dimensioni-variabili.html)

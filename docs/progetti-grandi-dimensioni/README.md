@@ -2,6 +2,6 @@
 
 Voci:
 
-- [Errori comuni e regole di stile in C](./errori-comuni-regole-stile.md)
-- [Moduli, prototipi e header file](./moduli-prototipi-header-file.md)
-- [L'utility make ed i makefile](./utility-make-makefile.md)
+- [Errori comuni e regole di stile in C](./errori-comuni-regole-stile.html)
+- [Moduli, prototipi e header file](./moduli-prototipi-header-file.html)
+- [L'utility make ed i makefile](./utility-make-makefile.html)

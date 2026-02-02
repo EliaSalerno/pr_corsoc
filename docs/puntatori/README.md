@@ -2,7 +2,7 @@
 
 Voci:
 
-- [Puntatori in C](./puntatori-in-c.md)
-- [Puntatori e Funzioni](./puntatori-e-funzioni.md)
-- [Puntatori ed Array](./puntatori-ed-array.md)
-- [Puntatori e Strutture](./puntatori-e-strutture.md)
+- [Puntatori in C](./puntatori-in-c.html)
+- [Puntatori e Funzioni](./puntatori-e-funzioni.html)
+- [Puntatori ed Array](./puntatori-ed-array.html)
+- [Puntatori e Strutture](./puntatori-e-strutture.html)

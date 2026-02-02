@@ -2,6 +2,6 @@
 
 Voci:
 
-- [Software da usare: Windows](./software-windows.md)
-- [Software da usare: Linux](./software-linux.md)
-- [Software da usare: Mac OS](./software-mac-os.md)
+- [Software da usare: Windows](./software-windows.html)
+- [Software da usare: Linux](./software-linux.html)
+- [Software da usare: Mac OS](./software-mac-os.html)
