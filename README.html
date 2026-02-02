@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>README — Laboratorio di C</title>
+  <link rel="stylesheet" href="./docs/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <h1>README</h1>
+      <p class="lead">Versione HTML del README principale.</p>
+      <p class="links">🔗 <a href="./docs/index.html">Apri la mappa</a> • 🟣 Tema: <strong>Dark (viola)</strong></p>
+    </header>
+
+    <article id="content">Caricamento...</article>
+
+    <footer class="footer">
+      <p>Generato automaticamente — <strong>GitHub Copilot</strong></p>
+    </footer>
+  </main>
+
+  <script>
+    (async function(){
+      const md = await fetch('./README.md').then(r=>r.text());
+      document.getElementById('content').innerHTML = marked.parse(md);
+      document.querySelectorAll('#content a[href]').forEach(a => {
+        const href = a.getAttribute('href');
+        if (href && href.endsWith('.md')) a.setAttribute('href', href.replace(/\.md(#.*)?$/, '.html$1'));
+      });
+      const h1 = document.querySelector('#content h1');
+      if (h1) document.title = h1.textContent + ' — Laboratorio di C';
+    })();
+  </script>
+</body>
+</html>
